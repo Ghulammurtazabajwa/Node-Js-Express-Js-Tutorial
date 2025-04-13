@@ -1,0 +1,99 @@
+:root {
+    --nero: rgb(64, 84, 178);
+    --transition: all 0.3s ease;
+    --white: white;
+    --black: rgb(0, 54, 111);
+    --green: rgb(255, 204, 1);
+    --poppins: sans-serif;
+    --sans: sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    color: var(--white);
+    line-height: 1.5;
+    background-color: var(--black);
+    overflow-x: hidden;
+}
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0.6rem 0;
+}
+
+/* Button */
+.btn {
+    border: none;
+    margin: 1rem 0;
+    border-radius: 35px;
+    background: var(--green);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: inline-block;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.btn:hover {
+    opacity: 0.7;
+}
+.text {
+    font-size: 1.05rem;
+    color: #d0d0d0;
+    line-height: 1.7;
+}
+
+/* Title */
+.title {
+    position: relative;
+}
+.title > h2 {
+    font-size: 3rem;
+    font-family: var(--poppins);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: var(--nero);
+}
+.title div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.title div h2 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-family: var(--poppins);
+    font-weight: 800;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 500px){
+    .title > h2 {
+        font-size: 6rem;
+    }
+    .title div h2 {
+        font-size: 3rem;
+    }
+}
+/* Animation and Transition Stopper Styling */
+.resize-animation-stopper *{
+    animation: none !important;
+    transition: none !important;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "node.js-express.js-tutorial",
+  "version": "1.0.0",
+  "description": "Node Js Totorial 2025",
+  "main": "coreModules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghulammurtazabajwa/Node-Js-Express-Js-Tutorial.git"
+  },
+  "keywords": [
+    "The",
+    "Murtaza"
+  ],
+  "author": "Ghulam Murtaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghulammurtazabajwa/Node-Js-Express-Js-Tutorial/issues"
+  },
+  "homepage": "https://github.com/Ghulammurtazabajwa/Node-Js-Express-Js-Tutorial#readme",
+  "dependencies": {
+    "axios": "^1.8.4"
+  }
+}
